@@ -12,14 +12,17 @@
 body {
     background-color: #141519;
     height: 100vh;
+    margin: 0;            
+    min-height: 100vh;       
+    padding: 24px;           
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container,
 .result {
     background: linear-gradient(180deg, #252c37, #19202a); 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     width: 100%;
     height: auto;
     max-width: 412px;
